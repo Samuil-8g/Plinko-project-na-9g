@@ -7,7 +7,7 @@ import ctypes, pygame, pymunk, random, sys, asyncio
 # Maintain resolution regardless of Windows scaling settings
 ctypes.windll.user32.SetProcessDPIAware()
 
-async def main():
+async def main()
     class Game:
         def __init__(self):
             # General setup
@@ -75,4 +75,4 @@ async def main():
         game = Game()
         game.run()
     await asyncio.sleep(0)
-    asyncio.run(main())
+asyncio.run(main())
